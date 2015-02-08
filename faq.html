@@ -1,0 +1,33 @@
+---
+title: F.A.Q.
+layout: page
+---
+
+<h1>FAQ - Frequently Asked Questions</h1>
+
+<ul class="faqnavigation">
+{% assign categories = site.data.faq | sort %}
+{% for category in categories %}
+    <li>{{ category[1].meta.title }}
+        <ul>
+        {% assign items = category[1].items %}
+        {% for item in items %}
+            <li><a href="#faq.{{ item[1].title | escape | remove:' ' }}">{{ item[1].title }}</a></li>
+        {% endfor %}
+        </ul>
+    </li>
+{% endfor %}
+</ul>
+
+{% assign categories = site.data.faq | sort %}
+{% for category in categories %}
+    <h2>{{ category[1].meta.title }}</h2>
+
+    {% assign items = category[1].items %}
+    {% for item in items %}
+        <div class="faqitem">
+            <h3 id="faq.{{ item[1].title | escape | remove:' ' }}">{{ item[1].title }}</h3>
+            {{ item[1].content | markdownify }}
+        </div>
+    {% endfor %}
+{% endfor %}

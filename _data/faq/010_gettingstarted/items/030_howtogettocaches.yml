@@ -1,0 +1,24 @@
+title: I see caches in c:geo, but how to get them?
+content: |
+    If you managed to see caches on the map or in the nearby list, select a cache and open its details.
+
+    Read the listing text and pay attention to the D/T-ratings and attributes to learn more about how to log this cache.
+
+    If you are good to go, press the menu key and select "Navigate".
+
+    You will have several options depending on your needs. Here is a brief description of the most important navigation methods:
+
+    - Compass:
+        It will constantly show you distance and direction to the cache.
+
+    - Radar (optional):
+
+        If you installed an app supporting radar functions this will open a radar screen.
+
+        It is similar to the compass, but the working mode is a little different. You will typically see the cache coordinates as a marker on the radar. If the marker reaches the center, you reached the cache coordinates.
+
+    - Navigation (Drive, Walk, Cycle):
+
+        This will start turn-by-turn navigation using Google Maps
+
+    When you reach the coordinates, remember that GPS has an accuracy of several meters/feet only (also depending on your phones GPS performance). So you might to look around your position as well to find the cache.
